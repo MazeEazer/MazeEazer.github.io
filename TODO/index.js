@@ -13,6 +13,9 @@ document.addEventListener( "DOMContentLoaded", () => {
 			span.innerHTML = "\u00d7";
 			item.appendChild(span);
 		}
+		else{
+			alert("Please, enter something");
+		}
 		saveData();
 	})
 	list.addEventListener("click",(e)=>{
