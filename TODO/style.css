@@ -104,3 +104,17 @@ ul li span {
 ul li span:hover{
 	background: #edeefe;
 }
+@media(max-width: 576px){
+	.row{
+		margin-bottom: 10px;
+	}
+	.button{
+		padding: 14px 35px; 
+	}
+	.row{
+		padding-left: 10px;
+	}
+	.todo-app{
+		padding-inline: 25px;
+	}
+}
