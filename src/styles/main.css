@@ -8,16 +8,14 @@
   --black-border: #26292d;
   --white: #fff;
   --purple: #5c62ec;
-
+  --creamy: #fffafa;
   /* Nav */
   --nav-bg: var(--black);
   --nav-border: var(--black-border);
   --nav-text: var(--white);
 
   /* Header */
-  --header-bg: var(--black);
-  --header-text: var(--white);
-
+  --header-light: var(--creamy);
   /* Footer */
   --footer-bg: var(--black);
   --footer-text: var(--white);
@@ -35,6 +33,9 @@
 
 .dark {
   /* Dark mode */
+  --header-bg: var(--black);
+  --header-text: var(--white);
+
   --page-bg: #252526;
   --text-color: var(--white);
 
